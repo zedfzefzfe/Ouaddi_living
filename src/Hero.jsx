@@ -28,7 +28,7 @@ function Hero() {
             >
               <span className="kicker text-bone/80">
                 <span className="inline-block w-8 h-px bg-bronze align-middle mr-4 -translate-y-[2px]" />
-                Casablanca · Atelier depuis 2018
+                
               </span>
             </M.div>
           )}

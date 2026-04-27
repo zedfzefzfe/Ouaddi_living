@@ -296,29 +296,20 @@ img.reveal.loaded { opacity: 1; }
 }
 
 @media (max-width: 767px) {
-  /* On mobile: disable animation, enable native swipe */
-  .collections-carousel-wrapper {
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-  .collections-carousel-track {
-    animation: none;
-    transform: none !important;
-  }
+  /* On mobile: keep the same CSS auto-scroll as desktop */
   .coll-car-card {
     width: 88vw;
     margin-right: 16px;
-    scroll-snap-align: start;
-  }
-  .collections-hint::before {
-    content: "Glissez pour parcourir";
-    display: block;
-    margin-bottom: 0;
   }
   .collections-hint span { display: none; }
+  .collections-hint::after {
+    content: "Défilement automatique";
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: rgba(139, 115, 85, 0.6);
+  }
 
   /* Folio overlays: no hover on touch — always show title/neighbourhood */
   .folio-tile .folio-overlay { opacity: 1; }
