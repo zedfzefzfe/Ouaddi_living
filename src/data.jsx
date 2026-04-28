@@ -65,7 +65,7 @@ const TESTIMONIALS = [
 ];
 
 const CONTACT = {
-  address: "Boulevard Zerktouni, Casablanca 20250, Maroc",
+  address: "Boulevard Almaz, Casablanca 20232, Maroc",
   phones: ["+212 687 578 457", "+212 610 245 056"],
   hours: [
     { d: "Lundi – Vendredi", h: "10h00 – 19h30" },
