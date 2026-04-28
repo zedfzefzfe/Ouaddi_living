@@ -56,7 +56,7 @@ function Hero() {
                     transition={{ duration: 1.0, delay: 0.95, ease: [0.2,0.7,0.2,1] }}
                     className="mt-10 max-w-[34ch] text-bone/80 text-[17px] md:text-[18px] leading-[1.6]"
                   >
-                    Mobilier conçu, fabriqué et livré à Casablanca.
+                    Mobilier conçu, fabriqué et livré partout au Maroc et à l'étranger.
                     <br className="hidden md:block" />
                     <span className="block md:inline mt-2 md:mt-0 text-mist">Un atelier. Une signature. Des pièces pensées pour durer.</span>
                   </M.p>

@@ -36,6 +36,12 @@ function Showroom() {
               className="absolute inset-0 w-full h-full map-tint"
             />
             <div className="absolute inset-0 pointer-events-none ring-1 ring-inset ring-bone/5" />
+            <a
+              href="https://maps.app.goo.gl/JJgCPFSGEjqSMjcU7"
+              target="_blank" rel="noreferrer"
+              className="absolute inset-0 z-10"
+              aria-label="Ouvrir dans Google Maps"
+            />
           </div>
         </Reveal>
 
@@ -47,9 +53,13 @@ function Showroom() {
                 <IconMapPin size={18} />
                 <span className="kicker">Adresse</span>
               </div>
-              <p className="mt-3 font-serif text-bone text-[24px] leading-[1.3]">
+              <a
+                href="https://maps.app.goo.gl/JJgCPFSGEjqSMjcU7"
+                target="_blank" rel="noreferrer"
+                className="mt-3 font-serif text-bone text-[24px] leading-[1.3] hover:text-bronze transition-colors duration-300 block"
+              >
                 {CONTACT.address}
-              </p>
+              </a>
             </div>
 
             <div>
