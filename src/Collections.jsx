@@ -7,8 +7,8 @@ const CAROUSEL_CARDS = [
   },
   {
     id: "chambres-1",
-    title: "Chambres",
-    desc: "Lits · Têtes de lit · Dressings",
+    title: "Sur-mesure",
+    desc: "Pièces uniques dessinées pour vous",
     img: "uploads/2.jpg",
   },
   {
@@ -31,8 +31,8 @@ const CAROUSEL_CARDS = [
   },
   {
     id: "chambres-2",
-    title: "Chambres",
-    desc: "Lits · Têtes de lit · Dressings",
+    title: "Sur-mesure",
+    desc: "Pièces uniques dessinées pour vous",
     img: "uploads/6.jpg",
   },
  
