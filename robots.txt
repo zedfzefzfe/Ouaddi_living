@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block crawlers from accessing internal/development files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://ouaddiliving.com/sitemap.xml
