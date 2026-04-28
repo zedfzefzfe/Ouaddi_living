@@ -1,6 +1,6 @@
 // Shared data: imagery, copy, contact info.
 
-const WA_NUMBER = "212610245056";
+const WA_NUMBER = "212687578457";
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Bonjour Ouaddi Living, j'aimerais discuter d'un projet.")}`;
 const INSTAGRAM_URL = "https://instagram.com/ouaddi_living";
 
@@ -19,21 +19,21 @@ const IMG = {
 
   folio: [
     { id: "anfa",      title: "Villa Anfa",                 neighborhood: "Anfa Supérieur",    span: "portrait",
-      img: "https://images.unsplash.com/photo-1616137148650-4aa14651e02d?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/1.jpg" },
     { id: "bourgogne", title: "Appartement Bourgogne",      neighborhood: "Bourgogne",         span: "landscape",
-      img: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/2.jpg" },
     { id: "ain-diab",  title: "Résidence Aïn Diab",         neighborhood: "Aïn Diab",          span: "landscape",
-      img: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/3.jpg" },
     { id: "gauthier",  title: "Penthouse Gauthier",         neighborhood: "Gauthier",          span: "portrait",
-      img: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/4.jpg" },
     { id: "palmier",   title: "Duplex Palmier",             neighborhood: "Palmier",           span: "landscape",
-      img: "https://images.unsplash.com/photo-1600566753151-384129cf4e3e?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/5.jpg" },
     { id: "californie",title: "Villa Californie",           neighborhood: "Californie",        span: "portrait",
-      img: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/6.jpg" },
     { id: "racine",    title: "Atelier Racine",             neighborhood: "Racine",            span: "landscape",
-      img: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/71.jpg" },
     { id: "bouskoura", title: "Résidence Bouskoura Golf",   neighborhood: "Bouskoura",         span: "landscape",
-      img: "https://images.unsplash.com/photo-1616627547584-bf28cee262db?auto=format&fit=crop&w=1400&q=80" },
+      img: "uploads/8.jpg" },
   ],
 };
 
@@ -66,7 +66,7 @@ const TESTIMONIALS = [
 
 const CONTACT = {
   address: "Boulevard Zerktouni, Casablanca 20250, Maroc",
-  phones: ["+212 610 245 056", "+212 649 321 761"],
+  phones: ["+212 687 578 457", "+212 610 245 056"],
   hours: [
     { d: "Lundi – Vendredi", h: "10h00 – 19h30" },
     { d: "Samedi",           h: "10h00 – 18h00" },

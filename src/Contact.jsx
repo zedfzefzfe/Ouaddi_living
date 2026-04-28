@@ -14,6 +14,19 @@ function Contact() {
     e.preventDefault();
     setTouched({ name: true, phone: true, type: true, message: true });
     if (!valid) return;
+
+    const text =
+      `Nouvelle demande — Ouaddi Living\n\n` +
+      `Nom : ${form.name}\n` +
+      `Téléphone : ${form.phone}\n` +
+      `Projet : ${form.type}\n\n` +
+      `Message :\n${form.message}`;
+
+    window.open(
+      `https://wa.me/212687578457?text=${encodeURIComponent(text)}`,
+      "_blank"
+    );
+
     setSent(true);
   };
 

@@ -46,7 +46,7 @@ function Footer() {
               {[
                 ["Accueil", "#accueil"],
                 ["Collections", "#collections"],
-                ["Processus", "#processus"],
+                ["Atelier", "#collection-signature"],
                 ["Réalisations", "#realisations"],
                 ["Showroom", "#showroom"],
                 ["Contact", "#contact"],

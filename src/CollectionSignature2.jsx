@@ -9,6 +9,10 @@ function CollectionSignature2() {
     if (!section || !img) return;
 
     const onScroll = () => {
+      if (window.innerWidth < 1024) {
+        img.style.transform = "none";
+        return;
+      }
       const rect   = section.getBoundingClientRect();
       const center = rect.top + rect.height / 2;
       const offset = (window.innerHeight / 2 - center) * 0.04;
@@ -35,19 +39,18 @@ function CollectionSignature2() {
       </Reveal>
 
       <Reveal delay={0.7} y={25}>
-        <p className="colsig-body">
-          Chaque meuble sort de notre atelier après des heures de travail
-          minutieux — bois massif sélectionné à la main, assemblages
-          traditionnels, finitions soignées au dernier détail. Nous ne
-          produisons pas en série. Nous créons des pièces destinées à
-          traverser les générations.
-        </p>
+        <div className="colsig-body">
+          <p>Notre atelier de Casablanca réunit une équipe d'ébénistes, de tapissiers et de finisseurs formés aux gestes traditionnels du métier. Chaque meuble est conçu, prototypé et assemblé à la main, dans un même lieu&nbsp;— du premier croquis jusqu'à l'installation chez vous.</p>
+          <p>Nous ne produisons qu'une dizaine de pièces par mois. C'est une cadence lente, choisie&nbsp;— celle qui permet à un siège de tenir trente ans, à une table d'absorber les marques d'une vie de famille sans jamais se fatiguer. Du sur-mesure pensé pour durer, dans tous les sens du terme.</p>
+        </div>
       </Reveal>
 
       <Reveal delay={0.9} y={25}>
-        <a href="#contact" className="colsig-btn">
-          Démarrer un projet
-        </a>
+        <div style={{ marginTop: "2rem" }}>
+          <a href="#contact" className="colsig-btn">
+            Démarrer un projet
+          </a>
+        </div>
       </Reveal>
     </div>
   );
@@ -57,7 +60,7 @@ function CollectionSignature2() {
       <div className="colsig-video-wrap">
         <img
           ref={imgRef}
-          src="uploads/lux.png"
+          src="uploads/lux.jpg"
           alt="Atelier Ouaddi Living — fabrication sur mesure"
           className="colsig-video"
           style={{ objectFit: "cover" }}
@@ -90,10 +93,7 @@ function CollectionSignature2() {
       }}
     >
       {/* Columns reversed: text left, image right */}
-      <div
-        className="colsig-container"
-        style={{ gridTemplateColumns: "2fr 3fr" }}
-      >
+      <div className="colsig-container">
         {textCol}
         {animatedImageCol}
       </div>

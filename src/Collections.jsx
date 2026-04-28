@@ -27,25 +27,20 @@ const CAROUSEL_CARDS = [
     id: "salons-2",
     title: "Salons",
     desc: "Canapés · Fauteuils · Tables basses",
-    img: "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=80",
+    img: "uploads/5.jpg",
   },
   {
     id: "chambres-2",
     title: "Chambres",
     desc: "Lits · Têtes de lit · Dressings",
-    img: "https://images.unsplash.com/photo-1611004619928-e30143feaa3e?auto=format&fit=crop&w=900&q=80",
+    img: "uploads/6.jpg",
   },
-  {
-    id: "sam-2",
-    title: "Salle à manger",
-    desc: "Tables · Buffets · Assises",
-    img: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
-  },
+ 
   {
     id: "sur-mesure-2",
     title: "Sur-mesure",
     desc: "Pièces uniques dessinées pour vous",
-    img: "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=900&q=80",
+    img: "uploads/8.jpg",
   },
 ];
 

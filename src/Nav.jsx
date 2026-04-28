@@ -1,7 +1,7 @@
 const NAV_LINKS = [
   { label: "Accueil",       href: "#accueil" },
   { label: "Collections",   href: "#collections" },
-  { label: "Processus",     href: "#processus" },
+  { label: "Atelier",     href: "#collection-signature" },
   { label: "Réalisations",  href: "#realisations" },
   { label: "Contact",       href: "#contact" },
 ];
@@ -72,7 +72,7 @@ function Nav() {
             </nav>
 
             {/* Contactez nous (desktop) */}
-            <div className="hidden lg:flex">
+            <div className="hidden lg:flex" style={{ visibility: "hidden", pointerEvents: "none" }}>
               <a
                 href="#contact"
                 className="relative inline-flex items-center gap-2.5 px-6 py-2.5 rounded-full text-[11.5px] tracking-[0.22em] uppercase font-medium overflow-hidden group"
@@ -89,7 +89,7 @@ function Nav() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className="relative z-10 flex-shrink-0">
                   <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
                 </svg>
-                <span className="relative z-10">Contactez&#8202;nous</span>
+                <span className="relative z-10">Contact&#8202;</span>
               </a>
             </div>
 
