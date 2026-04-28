@@ -6,7 +6,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <div>
-              <img src="uploads/logo.png" alt="Ouaddi Living" className="h-20 md:h-40 w-auto object-contain" />
+              <img src="uploads/logo.png" alt="Ouaddi Living" className="h-36 md:h-40 w-auto object-contain" />
             </div>
             <p className="mt-5 text-mist text-[14.5px] leading-[1.7] max-w-sm">
               L'élégance pour votre intérieur. Design. Luxe. Confort. Mobilier sur mesure,
