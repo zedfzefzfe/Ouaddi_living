@@ -66,7 +66,7 @@ const TESTIMONIALS = [
 
 const CONTACT = {
   address: "Boulevard Almaz, Casablanca 20232, Maroc",
-  phones: ["+212 687 578 457", "+212 610 245 056"],
+  phones: ["+212 687 578 457", "+212 610 245 056" , "+212 649 321 761"],
   hours: [
     { d: "Lundi – Vendredi", h: "10h00 – 19h30" },
     { d: "Samedi",           h: "10h00 – 18h00" },
